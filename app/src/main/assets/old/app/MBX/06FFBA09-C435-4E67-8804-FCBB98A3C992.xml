@@ -1,0 +1,59 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="06FFBA09-C435-4E67-8804-FCBB98A3C992" platform="MtMobile" defaultW="375" defaultH="667" measureW="375" measureH="667" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="6">
+    <control controlID="58B96AE1-B7E1-4C52-AE1A-D288432A3BB4" controlTypeID="Label" x="86" y="74" w="217" h="24" zOrder="0">
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+      <text>%E5%AE%9C%E5%9C%B0%E4%BA%BA%E6%89%8D%E5%8D%A1APP%E6%AD%A3%E5%BC%8F%E4%B8%8A%E7%BA%BF%E5%96%BD</text>
+      <textColor>4294967295</textColor>
+      <textSize>18</textSize>
+      <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold]</textStyles>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="29C56334-8AE8-43FD-91F5-49C0DA912923" controlTypeID="Button" x="31" y="284" w="324" h="55" zOrder="1">
+      <color>4293886344</color>
+      <borderVisible>False</borderVisible>
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>%E6%88%91%E7%9A%84%E6%95%85%E4%BA%8B</text>
+      <textColor>4294967295</textColor>
+      <textSize>18</textSize>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+      <radius>27</radius>
+      <radiusIsPercent>True</radiusIsPercent>
+    </control>
+    <control controlID="85172D42-DA3A-4A65-91E1-2F7B999EDD3D" controlTypeID="Image" x="102" y="91" w="155" h="155" zOrder="2">
+      <opacity>0.100000001490116</opacity>
+      <URL>2F2274B07C93FA9AFA9B07229B3C91E6.png</URL>
+    </control>
+    <control controlID="D818F602-0960-423C-894A-24549EBA7D55" controlTypeID="Label" x="131" y="351" w="154" h="19" zOrder="3">
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>%E5%85%88%E9%AA%8C%E8%AF%81%E7%8F%A0%E5%AE%9D%EF%BC%8C%E5%86%8D%E7%BC%96%E5%86%99%E6%95%85%E4%BA%8B</text>
+      <textColor>4284900966</textColor>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="AFBF600D-BF07-4671-B3E8-1485E04BC180" controlTypeID="TextArea" x="90" y="352" w="44" h="20" zOrder="4">
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>%E6%8F%90%E7%A4%BA%EF%BC%9A</text>
+      <textColor>4294927872</textColor>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="D14545F4-1E6E-4F2F-BF6D-E82A6886FEDF" controlTypeID="Icon" x="164" y="142" w="42" h="42" zOrder="5">
+      <color>4292335575</color>
+      <icon>
+        <ID/>
+        <iconFontName>jdFontAwesome</iconFontName>
+        <iconCode>61977</iconCode>
+      </icon>
+      <URL>575AD5370C5E8159E3099B4AEEF78C23.svg</URL>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>0</fontSize>
+    <fontFamily/>
+    <guideLines/>
+  </param>
+</mockup>

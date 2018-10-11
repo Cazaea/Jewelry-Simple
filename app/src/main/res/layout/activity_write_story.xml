@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAppBackground"
+    android:orientation="vertical">
+
+    <!-- Toolbar样式设置 -->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/story_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorWhite"
+        android:theme="@style/ToolbarStyle"
+        app:navigationIcon="@drawable/icon_gray_left_arrow">
+
+        <!-- 自定义标题居中 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="验证结果"
+            android:textColor="@color/colorMainTitle"
+            android:textSize="18sp" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/colorMask" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/image_jewelry_verify_result" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="该珠宝已验证，请写入故事吧"
+            android:textColor="@color/colorMainTitle"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="检验结论      铂Pt950钻石坠"
+            android:textColor="@color/colorGray"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_write_story"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_main_button"
+        android:text="写入故事"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp"
+        android:typeface="serif" />
+
+</LinearLayout>
+
+

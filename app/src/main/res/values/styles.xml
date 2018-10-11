@@ -1,0 +1,147 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- 隐藏标题栏 -->
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowActionBar">false</item>
+        <!-- 页面切换动画设定 -->
+        <item name="android:windowAnimationStyle">@style/AnimActStyle</item>
+        <!-- 定制主题 -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- 全局Toolbar样式 -->
+        <item name="toolbarStyle">@style/ToolbarStyle</item>
+        <item name="toolbarNavigationButtonStyle">@style/ToolbarBackStyle</item>
+        <!-- 解决全屏跳转非全屏屏幕闪动问题,Android8.0中,与进出场动画不兼容，故values-v26中单独适配 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/colorAppBackground</item>
+    </style>
+
+    <!-- 页面状态栏占位 -->
+    <style name="ActTheme" parent="AppTheme">
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <!-- 自定义activity的进出场动画 -->
+    <style name="AnimActStyle" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+    <!-- Toolbar返回键图标样式 -->
+    <style name="ToolbarBackStyle" parent="@style/Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="android:minWidth">0dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+    <!-- ToolBar样式 -->
+    <style name="ToolbarStyle" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorControlNormal">@color/colorWhite</item>
+        <item name="android:actionMenuTextColor">@color/colorWhite</item>
+        <item name="android:actionBarSize">40dp</item>
+    </style>
+
+    <!-- Activity全屏 -->
+    <style name="FullScreenTheme" parent="AppTheme">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowAnimationStyle">@style/NoAnimStyle</item>
+    </style>
+
+    <!-- 页面跳转无动画效果 -->
+    <style name="NoAnimStyle" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+        <item name="android:taskOpenEnterAnimation">@null</item>
+        <item name="android:taskOpenExitAnimation">@null</item>
+        <item name="android:taskCloseEnterAnimation">@null</item>
+        <item name="android:taskCloseExitAnimation">@null</item>
+        <item name="android:taskToFrontEnterAnimation">@null</item>
+        <item name="android:taskToFrontExitAnimation">@null</item>
+        <item name="android:taskToBackEnterAnimation">@null</item>
+        <item name="android:taskToBackExitAnimation">@null</item>
+    </style>
+
+    <!-- Title样式 -->
+    <style name="TitleStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- 加载框样式 -->
+    <style name="LoadingDialogStyle" parent="@style/Theme.AppCompat.Dialog">
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="colorAccent">@color/colorWhite</item>
+    </style>
+
+    <!--web 等待框样式-->
+    <style name="CustomDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="colorAccent">@color/colorWhite</item>
+    </style>
+
+    <!-- 密码输入弹框样式 -->
+    <style name="KeyboardDialogTheme" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <!-- 密码输入框弹框样式 -->
+    <style name="KeyboardDialogAnimStyle">
+        <item name="android:windowEnterAnimation">@anim/popup_show</item>
+        <item name="android:windowExitAnimation">@anim/popup_gone</item>
+    </style>
+
+    <!-- popupWindow 动画样式 -->
+    <style name="popup_window_anim_style">
+        <item name="android:windowEnterAnimation">@anim/popup_show</item>
+        <item name="android:windowExitAnimation">@anim/popup_gone</item>
+    </style>
+
+    <!-- 设置-> LinearLayout 样式 -->
+    <style name="settings_linear">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">46dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+    <!-- 设置-> TextView 样式 -->
+    <style name="settings_text">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorDarkGray</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <!-- 水平分割线样式 -->
+    <style name="horizontal_split">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:background">#F6F6F6</item>
+    </style>
+
+</resources>

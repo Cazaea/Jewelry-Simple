@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAppBackground"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:background="@color/colorPrimary" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="我的"
+            android:textColor="@color/colorWhite"
+            android:textSize="16dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/mine_iv_setting"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:scaleType="fitEnd"
+                android:src="@drawable/icon_mine_setting" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/mine_swipe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="50dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@color/colorPrimary">
+
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:id="@+id/mine_riv_head_pic"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="24dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/pic_default_head"
+                        app:riv_border_color="#FFFFFF"
+                        app:riv_border_width="1dp"
+                        app:riv_oval="true" />
+
+                    <TextView
+                        android:id="@+id/mine_nick"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/mine_riv_head_pic"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="16dp"
+                        android:text="霜儿"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:typeface="sans" />
+
+                </RelativeLayout>
+
+                <!-- 我的情书 -->
+                <LinearLayout
+                    android:id="@+id/ll_love_letter"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:visibility="gone"
+                    android:background="@color/colorWhite"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:padding="8dp"
+                        android:src="@drawable/icon_mine_heart" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|start"
+                        android:text="我的情书"
+                        android:textColor="@color/colorDarkGray"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:src="@drawable/icon_gray_right_arrow" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:visibility="gone"
+                    android:background="@color/colorSeparatorLine" />
+
+                <!-- 我的珠宝故事 -->
+                <LinearLayout
+                    android:id="@+id/ll_jewelry_story"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@color/colorWhite"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:padding="8dp"
+                        android:src="@drawable/icon_mine_story" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|start"
+                        android:text="我的珠宝故事"
+                        android:textColor="@color/colorDarkGray"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:src="@drawable/icon_gray_right_arrow" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/colorSeparatorLine" />
+
+                <!-- 消息中心 -->
+                <LinearLayout
+                    android:id="@+id/ll_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@color/colorWhite"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:padding="8dp"
+                        android:src="@drawable/icon_mine_message" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|start"
+                        android:text="我的消息"
+                        android:textColor="@color/colorDarkGray"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:src="@drawable/icon_gray_right_arrow" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/colorSeparatorLine" />
+
+                <!-- 在线客服 -->
+                <LinearLayout
+                    android:id="@+id/ll_online"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@color/colorWhite"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:padding="8dp"
+                        android:src="@drawable/icon_mine_line_custorm" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|start"
+                        android:text="在线客服"
+                        android:textColor="@color/colorDarkGray"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:src="@drawable/icon_gray_right_arrow" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

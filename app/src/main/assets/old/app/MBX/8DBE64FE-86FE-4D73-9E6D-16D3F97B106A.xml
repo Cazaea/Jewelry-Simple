@@ -1,0 +1,59 @@
+<mockup version="5.3" minAllowVersion="5.3" ID="8DBE64FE-86FE-4D73-9E6D-16D3F97B106A" platform="MtMobile" defaultW="375" defaultH="667" measureW="375" measureH="667" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="6">
+    <control controlID="CE729974-6E56-40FA-B315-5F4A75117DB8" controlTypeID="Shape" x="0" y="340" w="375" h="327" zOrder="0">
+      <color>4294111986</color>
+      <borderColor>4292335575</borderColor>
+      <borderVisible>False</borderVisible>
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="E12555F1-6B06-4374-A65C-013C4160CACD" controlTypeID="Image" x="1" y="64" w="372" h="278" zOrder="1">
+      <URL>31957435F760B3A9083B1768CCCCED62.png</URL>
+    </control>
+    <control controlID="6142D529-4F08-41F9-8757-21349FF103D2" controlTypeID="StatusBar(Android)" x="0" y="0" w="375" h="17" zOrder="2">
+      <color>0</color>
+      <ForegroundColor>4278190080</ForegroundColor>
+      <IsAutoTextColor>False</IsAutoTextColor>
+    </control>
+    <control controlID="08A3DF5E-F8AD-4F43-BBD7-8C468BEFCD52" controlTypeID="Label" x="151" y="25" w="72" h="24" zOrder="3">
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>%E6%94%AF%E4%BB%98%E8%AE%A2%E5%8D%95</text>
+      <textSize>18</textSize>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="C3D527AC-4A5B-4040-B58E-38B38741222B" controlTypeID="Icon" x="17" y="24" w="20" h="20" zOrder="4">
+      <color>4278190080</color>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62418</iconCode>
+      </icon>
+      <URL>91852B86E51F760894554368302F9800.svg</URL>
+    </control>
+    <control controlID="69579F3D-DD45-4A54-BFC5-1A2370C6676F" controlTypeID="Button" x="22" y="365" w="326" h="54" zOrder="5">
+      <color>4281571839</color>
+      <borderVisible>False</borderVisible>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="1688BF49-8E71-4E3F-BAAC-2016764158D7" linkType="ltPageLink" isApplyIncludePage="False" title="%E9%A6%96%E9%A1%B5">
+          <area shape="0" alt="" ID="{6D9BD019-0745-4A9D-A5A4-956167128051}" coords="(0,0,326,54)"/>
+        </link>
+      </links>
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>%E7%A1%AE%E8%AE%A4%E6%94%AF%E4%BB%98</text>
+      <textColor>4294967295</textColor>
+      <textSize>18</textSize>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>0</fontSize>
+    <fontFamily/>
+    <guideLines/>
+  </param>
+</mockup>

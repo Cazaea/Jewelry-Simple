@@ -1,0 +1,25 @@
+<mockup version="5.3" minAllowVersion="5.3" ID="1C2D2EB8-0A5D-476E-A3C6-B18D1B1E7BDF" platform="MtMobile" defaultW="375" defaultH="667" measureW="375" measureH="667" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325">
+  <controls controlCount="3">
+    <control controlID="4275A963-0916-4714-B6F8-465C853EBD3A" controlTypeID="Label" x="148" y="20" w="80" h="27" zOrder="0">
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+      <text>%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3</text>
+      <textSize>20</textSize>
+      <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold]</textStyles>
+      <useDefaultTextSize>False</useDefaultTextSize>
+    </control>
+    <control controlID="A3946E17-0E85-4468-A46B-42DD78BEAE3A" controlTypeID="TextArea" x="22" y="77" w="312" h="30" zOrder="1">
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>+%E5%AE%9C%E5%9C%B0%E4%BA%BA%E6%89%8D%E5%8D%A1%E4%B8%8B%E9%9D%A2%E4%B8%A4%E4%B8%AA%E8%B4%A6%E6%88%B7%0D%0A%0D%0A</text>
+    </control>
+    <control controlID="2B951F86-B9AD-49B6-BF79-9299E9F402A4" controlTypeID="TextArea" x="26" y="232" w="96" h="21" zOrder="2">
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>0</fontSize>
+    <fontFamily/>
+    <guideLines/>
+  </param>
+</mockup>

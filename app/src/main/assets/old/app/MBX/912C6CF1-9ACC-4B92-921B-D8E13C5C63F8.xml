@@ -1,0 +1,21 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="912C6CF1-9ACC-4B92-921B-D8E13C5C63F8" platform="MtMobile" defaultW="375" defaultH="667" measureW="375" measureH="667" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325">
+  <controls controlCount="2">
+    <control controlID="F9236A3C-1504-4015-A1A3-170C40A954DD" controlTypeID="Image" x="0" y="0" w="375" h="533" zOrder="0">
+      <URL>C7225F9AEE91B0EF761B0C300BCFF0AD.png</URL>
+    </control>
+    <control controlID="ED5CC2FE-F096-441F-9B64-7A6AF9541B54" controlTypeID="Image" x="0" y="521" w="375" h="146" zOrder="1">
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="59FEE516-0D9C-44E4-B43D-A3B36C045893" linkType="ltPageLink" isApplyIncludePage="False" title="%E6%95%B4%E4%BD%93%E9%A1%B5%E9%9D%A2%E4%BF%AE%E6%94%B9">
+          <area shape="0" alt="" ID="{7CDC6E8D-2AA3-4C42-B323-80B2E03C8002}" coords="(0,0,375,146)"/>
+        </link>
+      </links>
+      <URL>CA16034E81BD2CD59BA4B6E4B899C900.png</URL>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>0</fontSize>
+    <fontFamily/>
+    <guideLines/>
+  </param>
+</mockup>

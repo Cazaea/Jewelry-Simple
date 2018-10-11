@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Toolbar样式设置 -->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/settings_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorWhite"
+        android:theme="@style/ToolbarStyle"
+        app:navigationIcon="@drawable/icon_gray_left_arrow">
+
+        <!-- 自定义标题居中 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="设置"
+            android:textColor="@color/colorMainTitle"
+            android:textSize="18sp" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/colorMask" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/colorAppBackground" />
+
+    <LinearLayout
+        android:id="@+id/settings_ll_change_pwd"
+        style="@style/settings_linear">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/icon_settings_secret" />
+
+        <TextView
+            style="@style/settings_text"
+            android:text="修改密码" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/icon_gray_right_arrow" />
+    </LinearLayout>
+
+    <View style="@style/horizontal_split" />
+
+    <LinearLayout
+        android:id="@+id/settings_ll_change_nick"
+        style="@style/settings_linear">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/icon_settings_secret" />
+
+        <TextView
+            style="@style/settings_text"
+            android:text="修改昵称" />
+
+        <TextView
+            android:id="@+id/setting_tv_nick"
+            style="@style/settings_text"
+            android:layout_marginRight="5dp"
+            android:gravity="right"
+            android:text="你的名字" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/icon_gray_right_arrow" />
+    </LinearLayout>
+
+    <View style="@style/horizontal_split" />
+
+    <LinearLayout
+        android:id="@+id/settings_ll_change_icon"
+        style="@style/settings_linear">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/icon_settings_secret" />
+
+        <TextView
+            style="@style/settings_text"
+            android:text="修改头像" />
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/settings_iv_icon"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pic_default_head"
+            app:riv_border_color="#FFFFFF"
+            app:riv_border_width="1dp"
+            app:riv_oval="true" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/icon_gray_right_arrow" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/colorAppBackground" />
+
+    <LinearLayout
+        android:id="@+id/settings_ll_clear"
+        style="@style/settings_linear"
+        android:paddingLeft="14dp">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/icon_settings_secret" />
+
+        <TextView
+            style="@style/settings_text"
+            android:text="清理缓存" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/icon_gray_right_arrow" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/colorAppBackground" />
+
+    <LinearLayout
+        android:id="@+id/settings_ll_exit"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/colorWhite"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="退出当前账号"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAppBackground" />
+
+</LinearLayout>

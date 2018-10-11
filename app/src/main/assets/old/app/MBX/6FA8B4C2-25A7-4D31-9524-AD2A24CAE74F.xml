@@ -1,0 +1,29 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="6FA8B4C2-25A7-4D31-9524-AD2A24CAE74F" platform="MtMobile" defaultW="375" defaultH="667" measureW="375" measureH="667" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="4">
+    <control controlID="CE73D6FA-3FDD-4860-A901-D1B8023E6DF5" controlTypeID="Shape" x="0" y="-7" w="375" h="119" zOrder="0">
+      <borderColor>4291611852</borderColor>
+      <borderVisible>False</borderVisible>
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="1922E638-7A98-4732-A90E-96AA245CB4F0" controlTypeID="Image" x="0" y="-7" w="375" h="674" zOrder="1">
+      <URL>E112C26A82BD085A57FA38F214591645.png</URL>
+    </control>
+    <control controlID="B05277C1-0107-4700-B2A6-DF8E87CD757D" controlTypeID="Image" x="43" y="133" w="285" h="411" zOrder="2">
+      <URL>7F2AA162B0DE88DD2346C8741A295514.png</URL>
+    </control>
+    <control controlID="7AF88FAB-76FE-484D-8891-1041F646907D" controlTypeID="Shape" x="62" y="157" w="33" h="25" zOrder="3">
+      <borderVisible>False</borderVisible>
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>14</fontSize>
+    <fontFamily>%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>

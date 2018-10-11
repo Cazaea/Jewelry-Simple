@@ -1,0 +1,68 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext.kotlinVersion = '1.2.51'
+
+    ext.minSdkVersion = 19
+    ext.compileSdkVersion = 27
+    ext.targetSdkVersion = 27
+    ext.buildToolsVersion = '27.0.3'
+    ext.gradleVersion = '3.1.3'
+    ext.junitVersion = '4.12'
+    ext.androidTestVersion = '1.0.2'
+    ext.androidEspressoVersion = '3.0.2'
+    ext.supportLibraryVersion = '27.1.1'
+
+    ext.butterKnifeVersion = '8.8.1'
+    ext.checkAndGetPermissionVersion = '2.0.0-rc4'
+    ext.routerVersion = '0.6.2'
+    ext.adDialogVersion = '1.0'
+
+    ext.zxingVersion = "1.1.2"
+
+    ext.bannerVersion = '2.2.4'
+    ext.picassoVersion = '2.5.2'
+    ext.okhttpVersion = '3.9.1'
+    ext.eventBusVersion = '3.1.0-RC'
+    ext.dataStorageVersion = '1.3.0'
+    ext.loggerVersion = '2.1.1'
+    ext.roundImageVersion = '2.2.1'
+    ext.dialogVersion = '1.0.0'
+    ext.xmlTransVersion = '2.0.0'
+
+    ext.multidexVersion = '1.0.3'
+    // ping++支付相关
+    ext.pingxxVersion = '2.1.11'
+    ext.wechatSdkVersion = '5.1.4'
+    // bugly
+    ext.buglyCrashVersion = '1.3.5'
+    ext.buglyNativeVersion = '3.3.1'
+    // 信鸽推送
+    ext.xingeVersion = '3.2.2-release'
+    ext.wupVersion = '1.0.0.E-release'
+    ext.midVersion = '4.0.6-release'
+
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.3'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url "https://jitpack.io" }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

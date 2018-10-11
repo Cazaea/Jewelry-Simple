@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 启动页，跳过按钮属性 -->
+    <declare-styleable name="CountDownProgress">
+        <!-- 圆实心的颜色 -->
+        <attr name="solidColor" format="color" />
+        <!-- 圆边框的颜色 -->
+        <attr name="frameColor" format="color" />
+        <!-- 进度条的颜色 -->
+        <attr name="progressColor" format="color" />
+        <!-- 文字的颜色 -->
+        <attr name="textColor" format="color" />
+    </declare-styleable>
+
+    <!-- 粘滞滚动ScrollView -->
+    <declare-styleable name="StickyScrollView">
+        <!-- 资源文件的高度 -->
+        <attr name="stuckShadowHeight" format="dimension" />
+        <!-- 资源文件 -->
+        <attr name="stuckShadowDrawable" format="reference" />
+    </declare-styleable>
+
+    <!-- 波浪动画 -->
+    <declare-styleable name="WaveAnim">
+        <!--波浪颜色-->
+        <attr name="waveColor" format="color" />
+        <!--波浪背景颜色-->
+        <attr name="waveBackgroundColor" format="color" />
+        <!--波浪速度-->
+        <attr name="speed" format="float" />
+        <!--正弦曲线相关-->
+        <!--波浪振幅-->
+        <attr name="amplitude" format="integer" />
+        <!--波浪相对于控件的位置-->
+        <attr name="quadrant" format="float" />
+        <!--波浪的频率-->
+        <attr name="frequency" format="float" />
+    </declare-styleable>
+
+    <!-- 流式布局 -->
+    <declare-styleable name="FlowLayout">
+        <!-- 水平间距 -->
+        <attr name="flow" format="boolean" />
+        <!-- 子控件水平间距 -->
+        <attr name="childSpacing" format="enum|dimension">
+            <enum name="auto" value="-65536" />
+        </attr>
+        <!-- 子控件末行间距 -->
+        <attr name="childSpacingForLastRow" format="enum|dimension">
+            <enum name="auto" value="-65536" />
+            <enum name="align" value="-65537" />
+        </attr>
+        <!-- 子控件行间距 -->
+        <attr name="rowSpacing" format="enum|dimension">
+            <enum name="auto" value="-65536" />
+        </attr>
+        <attr name="rtl" format="boolean" />
+    </declare-styleable>
+
+    <!-- 垂直滚动头条 -->
+    <declare-styleable name="MarqueeViewStyle">
+        <!-- 间隔 -->
+        <attr name="mvInterval" format="integer|reference" />
+        <!-- 动画时长 -->
+        <attr name="mvAnimDuration" format="integer" />
+        <!-- 文字大小 -->
+        <attr name="mvTextSize" format="dimension|reference" />
+        <!-- 文字颜色 -->
+        <attr name="mvTextColor" format="color|reference" />
+        <!-- 文字显示位置 -->
+        <attr name="mvGravity" format="enum">
+            <enum name="left" value="0" />
+            <enum name="center" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.hxd.jewelry.simple">
+
+    <!--  NFC权限 -->
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="true" />
+
+    <application
+        android:name="com.hxd.jewelry.simple.app.MainApp"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/main_app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon,android:label">
+
+        <!-- 路由工具通过Url跳转的声明 -->
+        <activity android:name="com.thejoyrun.router.RouterCenterActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.jewelry.com"
+                    android:scheme="http" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="jewelry" />
+            </intent-filter>
+        </activity>
+
+        <!-- Bugly -->
+        <activity
+            android:name="com.tencent.bugly.beta.ui.BetaActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|locale"
+            android:theme="@android:style/Theme.Translucent" />
+
+        <!-- Android7.0, 数据共享配置 -->
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <!-- 所有页面 -->
+        <activity
+            android:name="com.hxd.jewelry.simple.ui.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hxd.jewelry.simple.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hxd.jewelry.simple.ui.main.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hxd.jewelry.simple.ui.main.VerificationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hxd.jewelry.simple.ui.main.InformationWebActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hxd.jewelry.simple.ui.main.MineActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hxd.jewelry.simple.ui.login.RegisterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActTheme" />
+        <activity
+            android:name="com.hxd.jewelry.simple.ui.login.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActTheme" />
+        <activity
+            android:name="com.hxd.jewelry.simple.ui.login.RecoverActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActTheme" />
+        <activity
+            android:name="com.hxd.jewelry.simple.ui.web.WebsiteActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActTheme" />
+        <activity
+            android:name="com.hxd.jewelry.simple.ui.verify.NfcActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hxd.jewelry.simple.ui.verify.ScanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hxd.jewelry.simple.ui.verify.InputActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActTheme" />
+        <activity
+            android:name="com.hxd.jewelry.simple.ui.settings.ModifyNickActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActTheme" />
+        <activity
+            android:name="com.hxd.jewelry.simple.ui.settings.ModifyPasswordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActTheme" />
+        <activity
+            android:name="com.hxd.jewelry.simple.ui.settings.SettingsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActTheme" />
+        <activity
+            android:name="com.hxd.jewelry.simple.ui.home.StoryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActTheme" />
+        <activity
+            android:name="com.hxd.jewelry.simple.ui.home.WriteStoryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActTheme" />
+    </application>
+
+</manifest>

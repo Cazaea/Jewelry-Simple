@@ -1,0 +1,53 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="25F20B0A-614F-4372-9058-76CFD67A0E6A" platform="MtMobile" defaultW="375" defaultH="667" measureW="375" measureH="667" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="7">
+    <control controlID="CE73D6FA-3FDD-4860-A901-D1B8023E6DF5" controlTypeID="Shape" x="0" y="-7" w="375" h="119" zOrder="0">
+      <borderColor>4291611852</borderColor>
+      <borderVisible>False</borderVisible>
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="B7206860-28A3-4154-B010-90CDC51BCF1A" controlTypeID="Label" x="115" y="521" w="167" h="22" zOrder="1">
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>%E5%BF%AB%E6%9D%A5%E5%90%AC%E5%90%AC%E4%BB%96%2F%E5%A5%B9%E7%9A%84%E8%A1%A8%E7%99%BD%E5%90%A7</text>
+      <textColor>4291572480</textColor>
+      <textSize>16</textSize>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="C8E40E84-D715-445E-8833-3D30F7D15958" controlTypeID="Image" x="0" y="-7" w="375" h="557" zOrder="2">
+      <URL>02EDCCBD70E9C75AD83D4EAD845B0DD9.png</URL>
+    </control>
+    <control controlID="CF699626-6160-4586-A475-51A645AF5E27" controlTypeID="Icon" x="327" y="7" w="24" h="24" zOrder="3">
+      <color>4281584844</color>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>61769</iconCode>
+      </icon>
+      <URL>DC3C16427A3057483422C925AA31084C.svg</URL>
+    </control>
+    <control controlID="C7F3DB59-547A-4B38-80F5-8F740945903D" controlTypeID="Icon" x="285" y="7" w="24" h="24" zOrder="4">
+      <color>4294928025</color>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62343</iconCode>
+      </icon>
+      <URL>27BF6DD5D083782A1CB633DA66BC8750.svg</URL>
+    </control>
+    <control controlID="EBEE1468-AA1A-4999-A727-2204D01D33CC" controlTypeID="Image" x="0" y="572" w="181" h="81" zOrder="5">
+      <URL>FA3422A4DDC590E307C80290C63A981D.png</URL>
+    </control>
+    <control controlID="C6A3FFD2-7B49-472E-81AD-6AC5C7684BF7" controlTypeID="Image" x="191" y="570" w="173" h="83" zOrder="6">
+      <URL>BB4E8161A9D1FC441F90B9F9CBBF9A6B.png</URL>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294111986</backgroundColor>
+    <fontSize>14</fontSize>
+    <fontFamily>%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>

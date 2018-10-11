@@ -1,0 +1,33 @@
+<mockup version="5.3" minAllowVersion="5.3" ID="29D96483-D659-43FA-96EA-21EDC104E193" platform="MtMobile" defaultW="375" defaultH="667" measureW="375" measureH="667" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="4">
+    <control controlID="314BD480-4956-46F5-B5C4-8A107065CD44" controlTypeID="Image" x="0" y="0" w="375" h="669" zOrder="0">
+      <URL>9758BE814C4E7DE350AB564107F4BC98.png</URL>
+    </control>
+    <control controlID="C4B1DF45-7180-4071-8443-8F5D9D63300C" controlTypeID="Shape" x="8" y="147" w="347" h="46" zOrder="1">
+      <borderVisible>False</borderVisible>
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="F94DC54A-4E7D-4D95-A8DB-003708CB47A2" controlTypeID="Label" x="28" y="161" w="56" h="19" zOrder="2">
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>%E4%BA%BA%E6%89%8D%E5%8D%A1%E5%8F%B7</text>
+      <textColor>4284900966</textColor>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="7F7E9D29-EA32-4FB1-A6CB-F3B3EA0596B9" controlTypeID="Label" x="98" y="161" w="111" h="19" zOrder="3">
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>%E8%AF%B7%E8%BE%93%E5%85%A5%E4%BA%BA%E6%89%8D%E5%8D%A1%E5%8F%B7%E7%A0%81</text>
+      <textColor>4288256409</textColor>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>14</fontSize>
+    <fontFamily>%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>

@@ -1,0 +1,208 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="31A1E5E8-5A0F-43E6-BC31-0FA14AD7A9BC" platform="MtMobile" defaultW="375" defaultH="667" measureW="375" measureH="667" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="43">
+    <control controlID="0D181837-E525-496F-AE80-AF4B465805D0" controlTypeID="Shape" x="0" y="0" w="375" h="667" zOrder="0">
+      <color>4293413461</color>
+      <borderVisible>False</borderVisible>
+      <opacity>0.899999976158142</opacity>
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="6D4BF09D-6058-4911-98D2-7F06BE0809D2" controlTypeID="__group__" x="54" y="612" w="273" h="27" zOrder="1">
+      <groupChildrenDescriptors>
+        <control controlID="6F2690F2-E37A-4A60-B812-6C8B32CCB70B" controlTypeID="TextArea" x="32" y="3" w="241" h="24" zOrder="0">
+          <color>13224393</color>
+          <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>%E8%AF%B7%E6%8A%8A%E9%89%B4%E5%AE%9A%E8%AF%81%E4%B9%A6%E6%94%BE%E5%9C%A8%E8%AF%81%E5%8D%A1%E6%89%93%E5%8D%B0%E6%9C%BA%E4%B8%8B%E9%9D%A2</text>
+          <textColor>4294967295</textColor>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="F8D0E73E-DB06-47DD-8E00-8F3FF8E32C4B" controlTypeID="Icon" x="0" y="0" w="24" h="24" zOrder="1">
+          <color>4294967295</color>
+          <icon>
+            <ID/>
+            <iconFontName>jdIcoFont</iconFontName>
+            <iconCode>59087</iconCode>
+          </icon>
+          <URL>66DE948E50E8F0D8A2DD810632C8CA47.svg</URL>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="34B3CE23-F002-431B-8E97-ECCBFB3E65AC" controlTypeID="Image" x="58" y="185" w="246" h="246" zOrder="2">
+      <URL>736932FDE3FCA43B07027BDBFB5D69D8.png</URL>
+    </control>
+    <control controlID="3E6A7D5B-4E5F-4001-A37F-4D5A4CF6AE39" controlTypeID="Shape" x="110" y="275" w="151" h="40" zOrder="3">
+      <color>15498885</color>
+      <borderVisible>False</borderVisible>
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>%E7%8F%A0%E5%AE%9D%E9%89%B4%E5%AE%9A%E8%AF%81%E4%B9%A6</text>
+      <textColor>4294967295</textColor>
+      <textSize>20</textSize>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="7FFA6E50-E80F-44D5-B1BD-5D8CA50113DD" controlTypeID="TextArea" x="137" y="315" w="98" h="36" zOrder="4">
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>%E9%AA%8C%E8%AF%81%E4%B8%AD</text>
+      <textColor>4294967295</textColor>
+      <textSize>28</textSize>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="C75792FA-6A4B-4D9C-BEF1-8A0C550B4DDA" controlTypeID="Image" x="16" y="99" w="39" h="49" zOrder="5">
+      <opacity>0.100000001490116</opacity>
+      <URL>B701CB25EA2887240D8159D68A571DFA.png</URL>
+    </control>
+    <control controlID="42217CA9-E11E-4B5E-B34D-92FEBA42CBEC" controlTypeID="Image" x="16" y="180" w="39" h="49" zOrder="6">
+      <opacity>0.100000001490116</opacity>
+      <URL>B701CB25EA2887240D8159D68A571DFA.png</URL>
+    </control>
+    <control controlID="B536E845-5D5D-4526-AF83-E51EAEA494DE" controlTypeID="Image" x="16" y="390" w="39" h="49" zOrder="7">
+      <opacity>0.100000001490116</opacity>
+      <URL>B701CB25EA2887240D8159D68A571DFA.png</URL>
+    </control>
+    <control controlID="7A7C4D93-E212-4435-A2DA-4AC983702196" controlTypeID="Image" x="16" y="270" w="39" h="49" zOrder="8">
+      <opacity>0.100000001490116</opacity>
+      <URL>B701CB25EA2887240D8159D68A571DFA.png</URL>
+    </control>
+    <control controlID="86450217-3054-4199-9CCD-3AAF1BF66EFC" controlTypeID="Image" x="16" y="480" w="39" h="49" zOrder="9">
+      <opacity>0.100000001490116</opacity>
+      <URL>B701CB25EA2887240D8159D68A571DFA.png</URL>
+    </control>
+    <control controlID="2AE4DCCF-5085-4C68-A7BF-62A3B898BDD9" controlTypeID="Image" x="16" y="582" w="39" h="49" zOrder="10">
+      <opacity>0.100000001490116</opacity>
+      <URL>B701CB25EA2887240D8159D68A571DFA.png</URL>
+    </control>
+    <control controlID="1AF1D8CF-5EA9-45AA-96B0-740531FF0FBD" controlTypeID="Image" x="75" y="84" w="39" h="49" zOrder="11">
+      <opacity>0.100000001490116</opacity>
+      <URL>B701CB25EA2887240D8159D68A571DFA.png</URL>
+    </control>
+    <control controlID="31D6FA7B-E007-479B-A5A9-4AAA0D57FD6B" controlTypeID="Image" x="75" y="165" w="39" h="49" zOrder="12">
+      <opacity>0.100000001490116</opacity>
+      <URL>B701CB25EA2887240D8159D68A571DFA.png</URL>
+    </control>
+    <control controlID="B98B89EF-F46F-44CB-B1CE-30F97EDEDB9D" controlTypeID="Image" x="75" y="375" w="39" h="49" zOrder="13">
+      <opacity>0.100000001490116</opacity>
+      <URL>B701CB25EA2887240D8159D68A571DFA.png</URL>
+    </control>
+    <control controlID="BD97DCFE-8D69-4550-AD76-D97864DE371E" controlTypeID="Image" x="75" y="255" w="39" h="49" zOrder="14">
+      <opacity>0.100000001490116</opacity>
+      <URL>B701CB25EA2887240D8159D68A571DFA.png</URL>
+    </control>
+    <control controlID="967845CD-F5F0-48A4-84CB-DFE6C15860A9" controlTypeID="Image" x="74" y="465" w="39" h="49" zOrder="15">
+      <opacity>0.100000001490116</opacity>
+      <URL>B701CB25EA2887240D8159D68A571DFA.png</URL>
+    </control>
+    <control controlID="F97D94E2-04BA-4732-B8DB-3A7CC3054A64" controlTypeID="Image" x="74" y="567" w="39" h="49" zOrder="16">
+      <opacity>0.100000001490116</opacity>
+      <URL>B701CB25EA2887240D8159D68A571DFA.png</URL>
+    </control>
+    <control controlID="EB0521F6-1959-4DE8-A974-65A92977C2DC" controlTypeID="Image" x="133" y="69" w="39" h="49" zOrder="17">
+      <opacity>0.100000001490116</opacity>
+      <URL>B701CB25EA2887240D8159D68A571DFA.png</URL>
+    </control>
+    <control controlID="460477BF-1927-4A0A-A646-AE9560BD4F8E" controlTypeID="Image" x="133" y="150" w="39" h="49" zOrder="18">
+      <opacity>0.100000001490116</opacity>
+      <URL>B701CB25EA2887240D8159D68A571DFA.png</URL>
+    </control>
+    <control controlID="0005617A-C304-4553-8F1E-C342C3037338" controlTypeID="Image" x="133" y="360" w="39" h="49" zOrder="19">
+      <opacity>0.100000001490116</opacity>
+      <URL>B701CB25EA2887240D8159D68A571DFA.png</URL>
+    </control>
+    <control controlID="81A16CE3-A29D-4FAA-AE14-FBC6D10A376F" controlTypeID="Image" x="133" y="240" w="39" h="49" zOrder="20">
+      <opacity>0.100000001490116</opacity>
+      <URL>B701CB25EA2887240D8159D68A571DFA.png</URL>
+    </control>
+    <control controlID="A54F76A1-B295-4B8C-86F0-C10B10C204DE" controlTypeID="Image" x="133" y="450" w="39" h="49" zOrder="21">
+      <opacity>0.100000001490116</opacity>
+      <URL>B701CB25EA2887240D8159D68A571DFA.png</URL>
+    </control>
+    <control controlID="46F709A0-59D3-4B44-BA87-661EC739E541" controlTypeID="Image" x="133" y="552" w="39" h="49" zOrder="22">
+      <opacity>0.100000001490116</opacity>
+      <URL>B701CB25EA2887240D8159D68A571DFA.png</URL>
+    </control>
+    <control controlID="A3DF20F2-6F91-438B-96D2-82E88315244D" controlTypeID="Image" x="198" y="54" w="39" h="49" zOrder="23">
+      <opacity>0.100000001490116</opacity>
+      <URL>B701CB25EA2887240D8159D68A571DFA.png</URL>
+    </control>
+    <control controlID="5D6529CA-A324-43FB-A6BE-C65D6B541F18" controlTypeID="Image" x="198" y="135" w="39" h="49" zOrder="24">
+      <opacity>0.100000001490116</opacity>
+      <URL>B701CB25EA2887240D8159D68A571DFA.png</URL>
+    </control>
+    <control controlID="76341380-961E-4840-B0F9-631D8740C0C5" controlTypeID="Image" x="198" y="345" w="39" h="49" zOrder="25">
+      <opacity>0.100000001490116</opacity>
+      <URL>B701CB25EA2887240D8159D68A571DFA.png</URL>
+    </control>
+    <control controlID="98F71F93-BA78-4EF8-BF72-37AD41D57F90" controlTypeID="Image" x="198" y="225" w="39" h="49" zOrder="26">
+      <opacity>0.100000001490116</opacity>
+      <URL>B701CB25EA2887240D8159D68A571DFA.png</URL>
+    </control>
+    <control controlID="6E540A34-7D02-42E9-A3B8-4F104AF28FED" controlTypeID="Image" x="198" y="435" w="39" h="49" zOrder="27">
+      <opacity>0.100000001490116</opacity>
+      <URL>B701CB25EA2887240D8159D68A571DFA.png</URL>
+    </control>
+    <control controlID="6E2C18B0-73B1-41E5-B112-09FA427B044E" controlTypeID="Image" x="198" y="537" w="39" h="49" zOrder="28">
+      <opacity>0.100000001490116</opacity>
+      <URL>B701CB25EA2887240D8159D68A571DFA.png</URL>
+    </control>
+    <control controlID="47DEF04C-2AD1-43A0-B37B-1D73C2395C46" controlTypeID="Image" x="255" y="41" w="39" h="49" zOrder="29">
+      <opacity>0.100000001490116</opacity>
+      <URL>B701CB25EA2887240D8159D68A571DFA.png</URL>
+    </control>
+    <control controlID="C2E34CF7-011A-4B18-8A7E-13B12F3BA84C" controlTypeID="Image" x="255" y="122" w="39" h="49" zOrder="30">
+      <opacity>0.100000001490116</opacity>
+      <URL>B701CB25EA2887240D8159D68A571DFA.png</URL>
+    </control>
+    <control controlID="631FD568-4CEA-4E2F-911E-2DE6847042C0" controlTypeID="Image" x="255" y="332" w="39" h="49" zOrder="31">
+      <opacity>0.100000001490116</opacity>
+      <URL>B701CB25EA2887240D8159D68A571DFA.png</URL>
+    </control>
+    <control controlID="C4953FEA-EB73-4AF1-BC37-B3A619C73B20" controlTypeID="Image" x="255" y="212" w="39" h="49" zOrder="32">
+      <opacity>0.100000001490116</opacity>
+      <URL>B701CB25EA2887240D8159D68A571DFA.png</URL>
+    </control>
+    <control controlID="FEC4B8B8-AD76-49C3-8B30-FDCF0D802708" controlTypeID="Image" x="255" y="422" w="39" h="49" zOrder="33">
+      <opacity>0.100000001490116</opacity>
+      <URL>B701CB25EA2887240D8159D68A571DFA.png</URL>
+    </control>
+    <control controlID="0EE2DFAA-17D4-46EA-A173-7C921A3529F0" controlTypeID="Image" x="255" y="524" w="39" h="49" zOrder="34">
+      <opacity>0.100000001490116</opacity>
+      <URL>B701CB25EA2887240D8159D68A571DFA.png</URL>
+    </control>
+    <control controlID="EEA73EF1-76CE-453B-A89E-D94F5B8DD9CC" controlTypeID="Image" x="312" y="104" w="39" h="49" zOrder="35">
+      <opacity>0.100000001490116</opacity>
+      <URL>B701CB25EA2887240D8159D68A571DFA.png</URL>
+    </control>
+    <control controlID="23B9D1AC-7035-4452-B6D1-B7F9C3746B58" controlTypeID="Image" x="312" y="314" w="39" h="49" zOrder="36">
+      <opacity>0.100000001490116</opacity>
+      <URL>B701CB25EA2887240D8159D68A571DFA.png</URL>
+    </control>
+    <control controlID="AC761F0B-5C77-456D-81CC-2E88DB6AD268" controlTypeID="Image" x="312" y="194" w="39" h="49" zOrder="37">
+      <opacity>0.100000001490116</opacity>
+      <URL>B701CB25EA2887240D8159D68A571DFA.png</URL>
+    </control>
+    <control controlID="0306DF62-68F3-4EB0-8F73-8DE839114CAB" controlTypeID="Image" x="312" y="404" w="39" h="49" zOrder="38">
+      <opacity>0.100000001490116</opacity>
+      <URL>B701CB25EA2887240D8159D68A571DFA.png</URL>
+    </control>
+    <control controlID="F0837F44-FB54-452A-857F-CF8A980F48F1" controlTypeID="Image" x="312" y="506" w="39" h="49" zOrder="39">
+      <opacity>0.100000001490116</opacity>
+      <URL>B701CB25EA2887240D8159D68A571DFA.png</URL>
+    </control>
+    <control controlID="EC1E9DF2-4167-4093-A75A-75668236E78D" controlTypeID="Icon" x="312" y="89" w="22" h="22" zOrder="40">
+      <color>4294967295</color>
+      <icon>
+        <ID/>
+        <iconFontName>jdFontAwesome</iconFontName>
+        <iconCode>61480</iconCode>
+      </icon>
+      <URL>252A54A7A8F843526A3366BB8704E211.svg</URL>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>14</fontSize>
+    <fontFamily>%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>

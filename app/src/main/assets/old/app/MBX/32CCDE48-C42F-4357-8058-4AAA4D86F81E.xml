@@ -1,0 +1,43 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="59FEE516-0D9C-44E4-B43D-A3B36C045893" platform="MtMobile" defaultW="375" defaultH="667" measureW="375" measureH="667" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="5">
+    <control controlID="6D76B64B-20DC-4B4F-ADBF-74E8B2088148" controlTypeID="Image" x="0" y="0" w="375" h="56" zOrder="0">
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="E54C0C83-4464-484F-A077-2B774EE2E702" linkType="ltPageLink" isApplyIncludePage="False" title="%E8%BF%9B%E5%85%A5%E9%A1%B5">
+          <area shape="0" alt="" ID="{8A2EE464-FAB9-416B-A2E8-247D50B84E7F}" coords="(0,0,375,56)"/>
+        </link>
+      </links>
+      <URL>9F654F9BA4FED4BB3F1DAEFE81DD89FA.png</URL>
+    </control>
+    <control controlID="9F847BCE-27E7-4732-B37C-E60005989380" controlTypeID="__group__" x="0" y="56" w="375" h="611" zOrder="1">
+      <groupChildrenDescriptors>
+        <control controlID="56EDA122-4F09-487C-976F-3A23E5D7C875" controlTypeID="Image" x="0" y="0" w="375" h="507" zOrder="0">
+          <URL>77B8D5E4F57705A956CE34890D6CBD82.png</URL>
+        </control>
+        <control controlID="D5F6BE9B-C147-4F36-965A-9A16E2784C43" controlTypeID="Image" x="0" y="481" w="375" h="130" zOrder="1">
+          <URL>7E9C472CEFE225BFDD49B5FDA6F9841D.png</URL>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="47FC60E9-A016-4F9C-AE03-8ABC66B675FB" controlTypeID="Label" x="314" y="13" w="32" h="22" zOrder="2">
+      <color>4281282355</color>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="EEFC6A51-6502-4C5C-9055-F924B6A9F04F" linkType="ltPageLink" isApplyIncludePage="False" title="%E9%A2%84%E8%A7%88">
+          <area shape="0" alt="" ID="{FF268CBA-9DDF-4D4E-AE13-AEDD9B688653}" coords="(0,0,32,22)"/>
+        </link>
+      </links>
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>%E9%A2%84%E8%A7%88</text>
+      <textColor>4294967295</textColor>
+      <textSize>16</textSize>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294954188</backgroundColor>
+    <fontSize>14</fontSize>
+    <fontFamily>%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>

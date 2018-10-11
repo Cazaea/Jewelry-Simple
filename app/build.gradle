@@ -1,0 +1,87 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "com.hxd.jewelry.simple"
+        minSdkVersion 19
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation"org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlinVersion"
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    // Android支持
+    implementation "com.android.support:support-v4:$supportLibraryVersion"
+    implementation "com.android.support:support-v13:$supportLibraryVersion"
+    implementation "com.android.support:support-annotations:$supportLibraryVersion"
+    implementation "com.android.support:appcompat-v7:$supportLibraryVersion"
+    implementation "com.android.support:design:$supportLibraryVersion"
+    implementation "com.android.support:cardview-v7:$supportLibraryVersion"
+    implementation "com.android.support:mediarouter-v7:$supportLibraryVersion"
+
+    // 牛油刀注解
+    implementation "com.jakewharton:butterknife:$butterKnifeVersion"
+    annotationProcessor "com.jakewharton:butterknife-compiler:$butterKnifeVersion"
+    // Kotlin
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlinVersion"
+    // 图片加载
+    implementation "com.squareup.picasso:picasso:$picassoVersion"
+    // banner
+    implementation 'com.youth.banner:banner:1.4.10'
+    // 网络封装
+    implementation "com.squareup.okhttp3:okhttp:$okhttpVersion"
+    // Android缓存
+    implementation "xiaofei.library:android-data-storage:$dataStorageVersion"
+    // EventBus,事件总线
+    implementation "org.greenrobot:eventbus:$eventBusVersion"
+    // 简易Log打印
+    implementation "com.orhanobut:logger:$loggerVersion"
+    // 导航页轮播图
+    implementation "cn.bingoogolapple:bga-banner:$bannerVersion"
+    // 圆形头像
+    implementation "com.makeramen:roundedimageview:$roundImageVersion"
+    // 酷炫弹框
+    implementation "com.github.cazaea:SweetAlertDialog:$dialogVersion"
+    // 二维码扫描
+    implementation "com.github.cazaea:ScanCode:$zxingVersion"
+    // xml转换工具
+    implementation "org.dom4j:dom4j:$xmlTransVersion"
+    // Multidex
+    implementation "com.android.support:multidex:$multidexVersion"
+    // ActivityRouter,路由工具
+    implementation "com.github.joyrun.ActivityRouter:router:$routerVersion"
+    annotationProcessor "com.github.joyrun.ActivityRouter:router-compiler:$routerVersion"
+    // 腾讯TBS
+    implementation files('libs/tbs_sdk_v3.6._20180211.jar')
+    // Bugly
+    implementation "com.tencent.bugly:crashreport_upgrade:$buglyCrashVersion"
+    implementation "com.tencent.bugly:nativecrashreport:$buglyNativeVersion"
+    // 沉浸状态栏
+    implementation 'com.gyf.barlibrary:barlibrary:2.3.0'
+    // 下拉刷新
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.5'
+    // 支持特殊Header
+    implementation 'com.scwang.smartrefresh:SmartRefreshHeader:1.0.5'
+    // 加载Gif图
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.8'
+
+}

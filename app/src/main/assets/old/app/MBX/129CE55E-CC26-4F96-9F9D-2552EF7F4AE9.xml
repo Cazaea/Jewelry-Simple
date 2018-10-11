@@ -1,0 +1,48 @@
+<mockup version="5.3" minAllowVersion="5.3" ID="129CE55E-CC26-4F96-9F9D-2552EF7F4AE9" platform="MtMobile" defaultW="375" defaultH="667" measureW="375" measureH="667" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="5">
+    <control controlID="9F463DEB-0D85-4132-AB21-29A17102903D" controlTypeID="Shape" x="0" y="65" w="375" h="602" zOrder="0">
+      <color>4294111986</color>
+      <borderColor>4294111986</borderColor>
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="DFB78759-6F0C-4479-9CCF-F5F27E74279D" controlTypeID="StatusBar(Android)" x="0" y="0" w="375" h="17" zOrder="1">
+      <color>0</color>
+      <ForegroundColor>4278190080</ForegroundColor>
+      <IsAutoTextColor>False</IsAutoTextColor>
+    </control>
+    <control controlID="4A87B87B-636A-4DD6-8025-3E5A4A553293" controlTypeID="__group__" x="17" y="24" w="205" h="25" zOrder="2">
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="436C7E79-C3CF-49E2-A341-EAE5B0050A25" linkType="ltPageLink" isApplyIncludePage="False" title="%E6%8A%98%E6%89%A3%E5%9C%BA%E9%A6%86">
+          <area shape="0" alt="" ID="{CE9C2E5E-B556-44F6-B104-C418D53CCECB}" coords="(0,0,205,25)"/>
+        </link>
+      </links>
+      <groupChildrenDescriptors>
+        <control controlID="D51283C1-5188-4640-A6A0-3198B4826D99" controlTypeID="Label" x="133" y="1" w="72" h="24" zOrder="0">
+          <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>%E6%94%AF%E4%BB%98%E9%87%91%E9%A2%9D</text>
+          <textSize>18</textSize>
+          <lineSpacing>0</lineSpacing>
+          <useDefaultTextSize>False</useDefaultTextSize>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="8ADD18BA-61D5-42AA-BA3C-E473B7B6407A" controlTypeID="Icon" x="0" y="0" w="20" h="20" zOrder="1">
+          <color>4278190080</color>
+          <icon>
+            <ID/>
+            <iconFontName>jdIonicons</iconFontName>
+            <iconCode>62418</iconCode>
+          </icon>
+          <URL>91852B86E51F760894554368302F9800.svg</URL>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>0</fontSize>
+    <fontFamily/>
+    <guideLines/>
+  </param>
+</mockup>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAppBackground"
+    tools:context=".ui.settings.ModifyPasswordActivity">
+
+    <!-- Toolbar样式设置 -->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/nick_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorWhite"
+        android:theme="@style/ToolbarStyle"
+        app:navigationIcon="@drawable/icon_gray_left_arrow">
+
+        <!-- 自定义标题居中 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="修改昵称"
+            android:textColor="@color/colorMainTitle"
+            android:textSize="18sp" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/colorMask" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@color/colorWhite">
+
+        <EditText
+            android:id="@+id/nick_et_nick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="16dp"
+            android:hint="请输入昵称"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/colorLightGray"
+            android:background="@null"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/nick_bt_submit"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:text="修  改"
+        android:typeface="serif"
+        android:background="@drawable/shape_main_button"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

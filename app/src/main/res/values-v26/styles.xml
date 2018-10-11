@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. 8.0单独适配-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- 隐藏标题栏 -->
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowActionBar">false</item>
+        <!-- 页面切换动画设定 -->
+        <item name="android:windowAnimationStyle">@style/AnimActStyle</item>
+        <!-- 定制主题 -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- 全局Toolbar样式 -->
+        <item name="toolbarStyle">@style/ToolbarStyle</item>
+        <item name="toolbarNavigationButtonStyle">@style/ToolbarBackStyle</item>
+        <item name="android:windowBackground">@color/colorAppBackground</item>
+    </style>
+
+</resources>

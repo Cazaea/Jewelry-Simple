@@ -1,0 +1,39 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="59FEE516-0D9C-44E4-B43D-A3B36C045893" platform="MtMobile" defaultW="375" defaultH="667" measureW="375" measureH="667" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="4">
+    <control controlID="6D76B64B-20DC-4B4F-ADBF-74E8B2088148" controlTypeID="Image" x="0" y="0" w="375" h="56" zOrder="0">
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="FBD37668-D6AC-4782-8071-D48429271FBB" linkType="ltPageLink" isApplyIncludePage="False" title="%E6%95%B4%E4%BD%93%E9%A1%B5%E9%9D%A2%E4%BF%AE%E6%94%B9">
+          <area shape="0" alt="" ID="{8A2EE464-FAB9-416B-A2E8-247D50B84E7F}" coords="(0,0,375,56)"/>
+        </link>
+      </links>
+      <URL>9F654F9BA4FED4BB3F1DAEFE81DD89FA.png</URL>
+    </control>
+    <control controlID="BF64C9C2-D355-40C7-8F7C-D6FA7BD8AB7D" controlTypeID="Image" x="0" y="55" w="375" h="546" zOrder="1">
+      <URL>76EE1D28AD7DA3A01DECFD4C7C55FA86.png</URL>
+    </control>
+    <control controlID="44F80FE9-061A-48DE-AFDF-FBC51210DDA2" controlTypeID="Image" x="0" y="566" w="375" h="102" zOrder="2">
+      <URL>581E83F372EA872B13543ACA7D2966EA.png</URL>
+    </control>
+    <control controlID="84A04E63-CE79-4960-9DDD-F7A18ACDE9B9" controlTypeID="Label" x="314" y="13" w="32" h="22" zOrder="3">
+      <color>4281282355</color>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="49C2D867-D0CC-4D85-8065-935E1401B697" linkType="ltPageLink" isApplyIncludePage="False" title="%E9%A2%84%E8%A7%88">
+          <area shape="0" alt="" ID="{FF268CBA-9DDF-4D4E-AE13-AEDD9B688653}" coords="(0,0,32,22)"/>
+        </link>
+      </links>
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>%E9%A2%84%E8%A7%88</text>
+      <textColor>4294967295</textColor>
+      <textSize>16</textSize>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294954188</backgroundColor>
+    <fontSize>14</fontSize>
+    <fontFamily>%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>

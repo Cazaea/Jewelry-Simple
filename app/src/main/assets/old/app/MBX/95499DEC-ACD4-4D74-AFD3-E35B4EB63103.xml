@@ -1,0 +1,31 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="95499DEC-ACD4-4D74-AFD3-E35B4EB63103" platform="MtMobile" defaultW="375" defaultH="667" measureW="375" measureH="667" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="5">
+    <control controlID="6D76B64B-20DC-4B4F-ADBF-74E8B2088148" controlTypeID="Image" x="0" y="0" w="375" h="56" zOrder="0">
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="4165C372-D360-46FF-874D-3BF4DE4C8984" linkType="ltPageLink" isApplyIncludePage="False" title="%E8%BF%9B%E5%85%A5%E9%A1%B5">
+          <area shape="0" alt="" ID="{8A2EE464-FAB9-416B-A2E8-247D50B84E7F}" coords="(0,0,375,56)"/>
+        </link>
+      </links>
+      <URL>9F654F9BA4FED4BB3F1DAEFE81DD89FA.png</URL>
+    </control>
+    <control controlID="01DBB65A-C9BC-4EA6-B223-C0A4661D9CFE" controlTypeID="__group__" x="0" y="54" w="375" h="613" zOrder="1">
+      <groupChildrenDescriptors>
+        <control controlID="EC36FBBB-F578-4BCE-AB80-E0ED4EB8383A" controlTypeID="Image" x="0" y="547" w="375" h="66" zOrder="0">
+          <URL>CFEC2209BBE57CE763DB5CC518F8C04C.png</URL>
+        </control>
+        <control controlID="D2F4F734-6FD5-48B7-9335-315F322F069B" controlTypeID="Image" x="0" y="0" w="375" h="535" zOrder="1">
+          <URL>199647048712248F23E1DCB4E438008D.png</URL>
+        </control>
+        <control controlID="4CB4BEB3-E4AE-4CA0-A78F-FE1446615703" controlTypeID="Image" x="0" y="490" w="375" h="57" zOrder="2">
+          <URL>F91C74A246529DAED081E9026E54EE77.png</URL>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294954188</backgroundColor>
+    <fontSize>14</fontSize>
+    <fontFamily>%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>

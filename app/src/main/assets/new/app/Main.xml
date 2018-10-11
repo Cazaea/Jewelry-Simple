@@ -1,0 +1,33 @@
+﻿<project version="2.9" name="珠宝APP-全版-去头尾" ID="2A68C848-E8AD-4049-95CF-DFC1DAE621AC">
+  <params>
+    <pageParam version="5.3" minAllowVersion="5.3"/>
+    <projectParam version="2.9" minAllowVersion="2.9" platform="MtMobile" orientation="MoPortrait" mobileScreenScale="1.77777779102325" mobileType="mmtIOS" pageSize="(375,667)" backgroundColor="4294967295" fontSize="0" fontFamily="" projectType="ptPersonalProject" isShowTitleIndex="False"/>
+    <previewParam version="1.0"/>
+    <colorParam version="1.0"/>
+  </params>
+  <pages>
+    <page name="验证结果" ID="21B6341C-A411-4AAC-8D0F-27EEB36519D1" expanded="True" code="vihplshj2B" thumbCode="" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="8E5DBB477305DE553B7418DB54FB6C04.png"/>
+      </images>
+      <page name="珠宝故事" ID="39585DB4-A5E2-4853-81EC-0768FEF2EB58" expanded="True" code="UtHODMulmv" thumbCode="" status="psWhite" isfolder="False" isshownode="True">
+        <images>
+          <image key="C04BB71FC233EA1CF54F811DFDE68804.png"/>
+          <image key="A380A2FC10657FB458B0AF3394A4DB63.png"/>
+          <image key="54964E1A7EB52CB719017841DF09CD57.png"/>
+          <image key="53E7365BCA8E3627263236781766D289.png"/>
+        </images>
+      </page>
+    </page>
+  </pages>
+  <trash/>
+  <deletes/>
+  <masters/>
+  <images>
+    <image key="8E5DBB477305DE553B7418DB54FB6C04.png"/>
+    <image key="A380A2FC10657FB458B0AF3394A4DB63.png"/>
+    <image key="54964E1A7EB52CB719017841DF09CD57.png"/>
+    <image key="53E7365BCA8E3627263236781766D289.png"/>
+    <image key="C04BB71FC233EA1CF54F811DFDE68804.png"/>
+  </images>
+</project>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E84A55</color>
+    <color name="colorPrimaryDark">#E84A55</color>
+    <color name="colorAccent">#FFFF4081</color>
+
+    <!-- 开发者模式下颜色 -->
+    <color name="colorDevelopToolbar">#FF202020</color>
+    <color name="colorDevelopBackground">#FF2F2F2F</color>
+    <color name="colorDevelopTitle">#FF9C9C9C</color>
+    <color name="colorDevelopButton">#FF5A5A5A</color>
+
+    <!-- 我的页面颜色 -->
+    <color name="colorMine">#FFFB5823</color>
+    <!-- 金额颜色 -->
+    <color name="colorMoney">#FFFB5D50</color>
+
+    <!-- 首页搜索背景色 -->
+    <color name="colorHomeSearch">#FFFA7672</color>
+
+    <!-- 密码输入框颜色 -->
+    <color name="colorKeyboardBackground">#FFFAFAFA</color>
+    <color name="colorKeyboardUnDo">#FFD9D9D9</color>
+    <color name="colorKeyboardNumber">#FFC3C3C3</color>
+
+    <!-- 波浪半透明1 -->
+    <color name="colorWaveHalfTransparent">#FFFB622D</color>
+    <!-- 波浪半透明2 -->
+    <color name="colorWaveHalfTransparent2">#BBFB622D</color>
+
+    <!-- 标签颜色1 -->
+    <color name="colorLabel1">#FFFE7673</color>
+    <!-- 标签颜色2 -->
+    <color name="colorLabel2">#FFB0D5F9</color>
+    <!-- 标签颜色3 -->
+    <color name="colorLabel3">#FFA1DCAB</color>
+
+    <!-- 分割线的颜色 -->
+    <color name="colorSeparatorLine">#FFDCDCDE</color>
+
+    <!-- 主标题颜色 -->
+    <color name="colorMainTitle">#FF000000</color>
+    <!-- 次要信息字体颜色 -->
+    <color name="colorSecondary">#FF888888</color>
+    <!-- 暗提示色 -->
+    <color name="colorHints">#FFBBBBBB</color>
+    <!-- 错误,警示色 -->
+    <color name="colorWarning">#FFF4333C</color>
+    <!-- 重点提醒色 -->
+    <color name="colorRemind">#FFFF5B05</color>
+    <!-- 弹出层蒙版40% -->
+    <color name="colorMask">#66000000</color>
+    <!-- APP底色 -->
+    <color name="colorAppBackground">#FFF5F5F9</color>
+
+    <!-- 透明 -->
+    <color name="colorTransparent">#00000000</color>
+    <!-- 半透明 -->
+    <color name="colorHalfTransparent">#30000000</color>
+
+    <!-- 白色 -->
+    <color name="colorWhite">#FFFFFFFF</color>
+    <!-- 黑色 -->
+    <color name="colorBlack">#FF000000</color>
+    <!-- 黄色 -->
+    <color name="colorYellow">#FFFFFC00</color>
+    <!-- 天蓝色 -->
+    <color name="colorSkyBlue">#FF87CEEB</color>
+    <!-- 浅蓝 -->
+    <color name="colorLightBlue">#FF33B5E5</color>
+    <!-- 主蓝色 -->
+    <color name="colorMainBlue">#FF427EF1</color>
+    <!-- 粉色 -->
+    <color name="colorPink">#FFFF87EF</color>
+    <!-- 橙色 -->
+    <color name="colorOrange">#FFff6200</color>
+    <!-- 真红-->
+    <color name="colorRealRed">#FFF15352</color>
+    <!-- 红色 -->
+    <color name="colorRed">#FFFF0000</color>
+    <!-- 深红色 -->
+    <color name="colorDarkRed">#ffb93221</color>
+    <!-- 浅绿色 -->
+    <color name="colorLightGreen">#FF9CDC6A</color>
+    <!-- 绿色 -->
+    <color name="colorGreen">#FF5AB75E</color>
+    <!-- 豆绿色 -->
+    <color name="colorDarkGreen">#FF658017</color>
+
+    <!-- 象牙白 -->
+    <color name="colorIvory">#FFFFFFF0</color>
+    <!-- 灰白色 -->
+    <color name="colorWhiteGray">#FFebebeb</color>
+    <!-- 浅灰色 -->
+    <color name="colorLightGray">#887c7c7c</color>
+    <!-- 灰色 -->
+    <color name="colorGray">#FF484848</color>
+    <!-- 深灰色 -->
+    <color name="colorDarkGray">#FF2e2e2e</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#FFd1395c</color>
+    <color name="dot_dark_screen2">#FF14a895</color>
+    <color name="dot_dark_screen3">#FF2278d4</color>
+    <color name="dot_dark_screen4">#FFa854d4</color>
+    <color name="dot_dark_screen5">#FFf57f17</color>
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#FFf98da5</color>
+    <color name="dot_light_screen2">#FF8cf9eb</color>
+    <color name="dot_light_screen3">#FF93c6fd</color>
+    <color name="dot_light_screen4">#FFe4b5fc</color>
+    <color name="dot_light_screen5">#FFfbc02d</color>
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+        <item>@color/dot_light_screen5</item>
+    </array>
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+        <item>@color/dot_dark_screen5</item>
+    </array>
+
+</resources>
