@@ -32,7 +32,7 @@ import com.hxd.jewelry.simple.config.ApiConfig;
 import com.hxd.jewelry.simple.data.User;
 import com.hxd.jewelry.simple.http.HttpUtil;
 import com.hxd.jewelry.simple.ui.main.HomeActivity;
-import com.hxd.jewelry.simple.ui.main.VerificationActivity;
+import com.hxd.jewelry.simple.ui.main.StoryWebActivity;
 import com.hxd.jewelry.simple.ui.main.InformationWebActivity;
 import com.hxd.jewelry.simple.ui.main.MineActivity;
 import com.hxd.jewelry.simple.adapters.PagerAdapter;
@@ -257,18 +257,21 @@ public class MainActivity extends BaseActivity {
                     @Override
                     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                         switch (item.getItemId()) {
-//                            case R.id.menu_home:
-//                                viewPager.setCurrentItem(0);
-//                                break;
-                            case R.id.menu_verification:
+                            case R.id.menu_home:
                                 viewPager.setCurrentItem(0);
                                 break;
                             case R.id.menu_information:
                                 viewPager.setCurrentItem(1);
                                 break;
+//                            case R.id.menu_confession:
+//                                viewPager.setCurrentItem(2);
+//                                break;
+                            case R.id.menu_story:
+                                viewPager.setCurrentItem(2);
+                                break;
                             case R.id.menu_mine:
                                 EventBus.getDefault().post(EventConfig.EVENT_REFRESH_MINE_INFO);
-                                viewPager.setCurrentItem(2);
+                                viewPager.setCurrentItem(3);
                                 break;
                         }
                         return false;
@@ -285,20 +288,24 @@ public class MainActivity extends BaseActivity {
         List<View> mViews = new ArrayList<>();
         Intent intent = new Intent();
 
-//        intent.setClass(this, HomeActivity.class);
-//        intent.putExtra("id", 1);
-//        mViews.add(getView("activity_home", intent));
-
-        intent.setClass(this, VerificationActivity.class);
+        intent.setClass(this, HomeActivity.class);
         intent.putExtra("id", 1);
-        mViews.add(getView("activity_information", intent));
+        mViews.add(getView("activity_home", intent));
 
         intent.setClass(this, InformationWebActivity.class);
         intent.putExtra("id", 2);
+        mViews.add(getView("activity_information", intent));
+
+//        intent.setClass(this, ConfessionWebActivity.class);
+//        intent.putExtra("id", 3);
+//        mViews.add(getView("activity_confession", intent));
+
+        intent.setClass(this, StoryWebActivity.class);
+        intent.putExtra("id", 3);
         mViews.add(getView("activity_story", intent));
 
         intent.setClass(this, MineActivity.class);
-        intent.putExtra("id", 3);
+        intent.putExtra("id", 4);
         mViews.add(getView("activity_mine", intent));
 
         PagerAdapter adapter = new PagerAdapter(mViews);

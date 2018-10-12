@@ -1,4 +1,4 @@
-package com.hxd.jewelry.simple.ui.verify;
+package com.hxd.jewelry.simple.ui.home;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -39,7 +39,6 @@ import com.hxd.jewelry.simple.config.AppConfig;
 import com.hxd.jewelry.simple.utils.LogcatUtil;
 import com.hxd.jewelry.simple.utils.NfcVUtil;
 import com.hxd.jewelry.simple.utils.ScreenUtil;
-import com.hxd.jewelry.simple.utils.ToastUtil;
 import com.hxd.jewelry.simple.view.CustomDialog;
 import com.thejoyrun.router.Router;
 import com.thejoyrun.router.RouterActivity;
@@ -252,6 +251,8 @@ public class NfcActivity extends BaseActivity {
                     // e08104004899e734
                     // e0040150621d82da
 
+                    // e0810400489a2333
+
                     // 验证成功
                     if (isContinue(result_UID)) {
                         // 验证结果成功页面
@@ -284,7 +285,7 @@ public class NfcActivity extends BaseActivity {
         } else {
             return false;
         }
-        return uid.equals("e08104004899cf3a") || uid.equals("e0810400489a7891") || uid.equals("e081040048996f3a") || uid.equals("e08104004899e734") || uid.equals("e0040150621d82da");
+        return uid.equals("e08104004899cf3a") || uid.equals("e0810400489a7891") || uid.equals("e081040048996f3a") || uid.equals("e08104004899e734") || uid.equals("e0040150621d82da") || uid.equals("e0810400489a2333");
     }
 
     @SuppressLint("NewApi")

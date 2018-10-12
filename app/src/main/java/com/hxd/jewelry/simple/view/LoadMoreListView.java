@@ -1,4 +1,4 @@
-package com.hxd.jewelry.simple.view;//package com.hxd.jewelry.com.hxd.jewelry.demo.view;
+package com.hxd.jewelry.simple.view;//package com.hxd.jewelry.com.hxd.jewelry.simple.view;
 //
 //import android.content.Context;
 //import android.util.AttributeSet;
@@ -7,7 +7,7 @@ package com.hxd.jewelry.simple.view;//package com.hxd.jewelry.com.hxd.jewelry.de
 //import android.widget.AbsListView;
 //import android.widget.ListView;
 //
-//import com.hxd.jewelry.demo.R;
+//import com.hxd.jewelry.simple.R;
 //
 ///**
 // * @author Cazaea

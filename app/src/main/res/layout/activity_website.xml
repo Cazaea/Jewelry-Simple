@@ -66,7 +66,7 @@
         android:background="@color/colorMask" />
 
     <!--&lt;!&ndash; 下拉刷新 &ndash;&gt;-->
-    <!--<com.hxd.jewelry.demo.view.SelfRefreshView-->
+    <!--<com.hxd.jewelry.simple.view.SelfRefreshView-->
         <!--android:id="@+id/smart_refresh"-->
         <!--android:layout_width="match_parent"-->
         <!--android:layout_height="fill_parent"-->
@@ -93,5 +93,5 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent" />
 
-    <!--</com.hxd.jewelry.demo.view.SelfRefreshView>-->
+    <!--</com.hxd.jewelry.simple.view.SelfRefreshView>-->
 </LinearLayout>

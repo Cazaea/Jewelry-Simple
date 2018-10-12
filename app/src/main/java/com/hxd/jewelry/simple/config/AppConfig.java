@@ -23,7 +23,7 @@ public class AppConfig {
     public static final String ROUTER_TOTAL_HEAD = "jewelry://";
     public static final String ROUTER_WEBSITE = "www.jewelry.com";
 
-    public static final String PROVIDER_FILE_NAME = "com.hxd.jewelry.demo.fileProvider";
+    public static final String PROVIDER_FILE_NAME = "com.hxd.jewelry.simple.fileProvider";
 
     /**
      * 缓存时间(秒)

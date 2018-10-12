@@ -19,10 +19,9 @@ public class ApiConfig {
     // 正式服
     public static String FORMAL_ROOT = "https://www.haoyu.top";
 
-    // 老版本
-    public static String MOCK_OLD_ROOT = "file:///android_asset/old/index.html?to=";
-    // 新版本
-    public static String MOCK_NEW_ROOT = "file:///android_asset/new/index.html";
+
+    public static String MOCK_ROOT = "file:///android_asset/old/index.html?to=";
+    public static String NEW_MOCK_ROOT = "file:///android_asset/new/index.html";
 
     //=========================ApiData=========================//
 
@@ -46,47 +45,25 @@ public class ApiConfig {
     public static String ModifyNickApi = ROOT + "/vmmember/rename";
 
     // 资讯
-    public static String InformationApi = MOCK_OLD_ROOT + "88FD2414-513D-4CC2-8C31-D47C6CD56EAB";
+    public static String InformationApi = MOCK_ROOT + "88FD2414-513D-4CC2-8C31-D47C6CD56EAB";
+    // 表白
+    public static String ConfessionApi = MOCK_ROOT + "B0AAC377-9424-4938-844D-62F3A9EED7DA";
+    // 故事
+    public static String StoryApi = MOCK_ROOT + "06FFBA09-C435-4E67-8804-FCBB98A3C992";
 
+    // 我的情书
+    public static String LoveLetterApi = MOCK_ROOT + "E9030E6B-529D-4B8F-A88A-48FD997B4E88";
     // 我的珠宝故事
-    public static String MyStoryApi = MOCK_OLD_ROOT + "70321595-0A87-4EFF-9C8E-F3B5CAB50D7E";
+    public static String MyStoryApi = MOCK_ROOT + "70321595-0A87-4EFF-9C8E-F3B5CAB50D7E";
     // 我的消息
-    public static String MessageApi = MOCK_OLD_ROOT + "CE4A28FE-EC38-448D-891E-408C907B722E";
+    public static String MessageApi = MOCK_ROOT + "CE4A28FE-EC38-448D-891E-408C907B722E";
     // 在线客服
-    public static String OnlineCustomerServiceApi = MOCK_OLD_ROOT + "";
-
-    // 定制珠宝
-    public static String CustomJewelryApi = MOCK_OLD_ROOT + "6B27CC5D-1539-4A6F-835D-13FDEAFD3462";
-    // 个性搭配
-    public static String PersonalityMatchApi = MOCK_OLD_ROOT + "56D19101-0973-44CD-9912-D7D0FA767D8D";
-    // 维修保养
-    public static String MaintenanceApi = MOCK_OLD_ROOT + "AA8693FF-0196-413B-802F-D5BE77168DD8";
-    // AR试戴
-    public static String ARTryOnApi = MOCK_OLD_ROOT + "25F20B0A-614F-4372-9058-76CFD67A0E6A";
-    // 寻找同款
-    public static String LookingForTheSameParagraphApi = MOCK_OLD_ROOT + "25471034-3F71-4E6B-AD4D-4E832252A4D9";
-    // 明星代言
-    public static String CelebrityEndorsementsApi = MOCK_OLD_ROOT + "72325E0A-C0AC-469D-A918-9980B1403EB5";
-    // 进店有礼
-    public static String EnterTheStoreApi = MOCK_OLD_ROOT + "519B795C-BB31-44CB-AB3E-A82B07D2C04D";
-    // 礼品卡
-    public static String GiftCardApi = MOCK_OLD_ROOT + "A7FD51DE-D53B-4DCD-AA48-7D605E861DC8";
-    // 活动招募
-    public static String EnentRecruitmentApi = MOCK_OLD_ROOT + "409ADBFD-B616-45BA-B478-53060263072F";
-    // 珠宝故事
-    public static String JewelryStoryApi = MOCK_OLD_ROOT + "06FFBA09-C435-4E67-8804-FCBB98A3C992";
-    // AR情书
-    public static String ARLoveLetterApi = MOCK_OLD_ROOT + "4B8F1B62-BC8B-42CC-946D-A7510C9A8323";
-    // 告白录音
-    public static String ConfessionRecordingApi = MOCK_OLD_ROOT + "6FA8B4C2-25A7-4D31-9524-AD2A24CAE74F";
+//    public static String LoveLetterApi = MOCK_ROOT + "E9030E6B-529D-4B8F-A88A-48FD997B4E88";
 
     // 验证结果
-//    public static String VerifyResultApi = MOCK_OLD_ROOT + "D8D267CF-7A18-4641-8745-1F7AE38FAD93";
-    public static String VerifyResultApi = MOCK_NEW_ROOT;
+//    public static String VerifyResultApi = MOCK_ROOT + "8D073F85-8238-4443-B2D3-225A22DC8AAF";
+    public static String VerifyResultApi = NEW_MOCK_ROOT;
     // 输入证书编号验证
-    public static String InputVerifyApi = MOCK_OLD_ROOT + "A286A2EE-817C-4103-8325-89B3D35A0F13";
-
-    // 发布珠宝故事
-    public static String PublishJewelryStoryApi = MOCK_OLD_ROOT + "2280004D-D09A-4589-9F9D-596C0422944B";
+    public static String InputVerifyApi = MOCK_ROOT + "A286A2EE-817C-4103-8325-89B3D35A0F13";
 
 }

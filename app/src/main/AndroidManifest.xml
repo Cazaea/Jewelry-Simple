@@ -101,13 +101,13 @@
             android:screenOrientation="portrait"
             android:theme="@style/ActTheme" />
         <activity
-            android:name="com.hxd.jewelry.simple.ui.verify.NfcActivity"
+            android:name="com.hxd.jewelry.simple.ui.home.NfcActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.hxd.jewelry.simple.ui.verify.ScanActivity"
+            android:name="com.hxd.jewelry.simple.ui.home.ScanActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.hxd.jewelry.simple.ui.verify.InputActivity"
+            android:name="com.hxd.jewelry.simple.ui.home.InputActivity"
             android:screenOrientation="portrait"
             android:theme="@style/ActTheme" />
         <activity
@@ -123,11 +123,11 @@
             android:screenOrientation="portrait"
             android:theme="@style/ActTheme" />
         <activity
-            android:name="com.hxd.jewelry.simple.ui.home.StoryActivity"
+            android:name="com.hxd.jewelry.simple.ui.main.ConfessionWebActivity"
             android:screenOrientation="portrait"
             android:theme="@style/ActTheme" />
         <activity
-            android:name="com.hxd.jewelry.simple.ui.home.WriteStoryActivity"
+            android:name="com.hxd.jewelry.simple.ui.main.StoryWebActivity"
             android:screenOrientation="portrait"
             android:theme="@style/ActTheme" />
     </application>

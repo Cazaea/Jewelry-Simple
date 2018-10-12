@@ -5,6 +5,35 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
+    <!-- 顶部滑动显示隐藏 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="@color/colorTransparent" />
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/colorTransparent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="珠宝验证"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                android:typeface="serif" />
+        </android.support.v7.widget.Toolbar>
+
+    </LinearLayout>
+
     <!-- 下拉刷新 -->
     <com.scwang.smartrefresh.layout.SmartRefreshLayout
         android:id="@+id/smart_refresh"
@@ -40,92 +69,182 @@
                     app:delay_time="3200"
                     app:scroll_time="1200" />
 
+                <!-- 验证模块 -->
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="fill_parent"
                     android:background="@color/colorWhite"
-                    android:gravity="center_vertical"
-                    android:orientation="horizontal">
+                    android:orientation="vertical">
 
-                    <RelativeLayout
-                        android:layout_width="wrap_content"
+                    <LinearLayout
+                        android:id="@+id/ll_verify_nfc"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginEnd="5dp"
-                        android:layout_marginStart="5dp"
-                        android:padding="10dp">
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:padding="20dp">
 
+                        <!-- 图片显示 -->
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:layout_centerInParent="true"
-                            android:background="@drawable/shape_home_circle_search"
-                            android:padding="5dp"
-                            android:src="@drawable/icon_home_search" />
+                            android:layout_gravity="center"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/icon_home_nfc" />
 
-                    </RelativeLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_marginEnd="10dp"
-                        android:gravity="center_vertical"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:layout_width="wrap_content"
+                        <!-- 右侧信息布局 -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:gravity="start"
-                            android:text="珠宝证书验证"
-                            android:textColor="@color/colorMainTitle"
-                            android:textSize="16sp" />
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="15dp"
+                            android:orientation="vertical">
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:gravity="start"
-                            android:text="多重验证 保障品质"
-                            android:textColor="@color/colorMainTitle"
-                            android:textSize="14sp" />
+                            <!-- 资讯标题 -->
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:ellipsize="end"
+                                android:gravity="center_vertical|start"
+                                android:maxLines="1"
+                                android:text="NFC验证"
+                                android:textColor="@color/colorMainTitle"
+                                android:textSize="16sp"
+                                android:typeface="sans" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:ellipsize="end"
+                                android:gravity="center_vertical|start"
+                                android:maxLines="3"
+                                android:text="非接触验证"
+                                android:textColor="@color/colorSecondary"
+                                android:textSize="14sp"
+                                android:typeface="sans" />
+
+                        </LinearLayout>
 
                     </LinearLayout>
 
-                    <LinearLayout
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:orientation="vertical">
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="@color/colorSeparatorLine" />
 
-                        <TextView
-                            android:id="@+id/tv_go_verify"
-                            android:layout_width="wrap_content"
+                    <LinearLayout
+                        android:id="@+id/ll_verify_scan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:padding="20dp">
+
+                        <!-- 图片显示 -->
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:background="@color/colorWhite"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/icon_home_scan" />
+
+                        <!-- 右侧信息布局 -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/shape_main_button"
-                            android:gravity="center"
-                            android:paddingBottom="8dp"
-                            android:paddingEnd="22dp"
-                            android:paddingStart="22dp"
-                            android:paddingTop="8dp"
-                            android:text="去验证"
-                            android:textColor="@color/colorWhite"
-                            android:textSize="16sp" />
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="15dp"
+                            android:orientation="vertical">
+
+                            <!-- 资讯标题 -->
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:ellipsize="end"
+                                android:gravity="center_vertical|start"
+                                android:maxLines="1"
+                                android:text="扫码验证"
+                                android:textColor="@color/colorMainTitle"
+                                android:textSize="16sp"
+                                android:typeface="sans" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:ellipsize="end"
+                                android:gravity="center_vertical|start"
+                                android:maxLines="3"
+                                android:text="二维码验证"
+                                android:textColor="@color/colorSecondary"
+                                android:textSize="14sp"
+                                android:typeface="sans" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="@color/colorSeparatorLine" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_verify_input"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:padding="20dp">
+
+                        <!-- 图片显示 -->
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:background="@color/colorWhite"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/icon_home_input_verify" />
+
+                        <!-- 右侧信息布局 -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="15dp"
+                            android:orientation="vertical">
+
+                            <!-- 资讯标题 -->
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:ellipsize="end"
+                                android:gravity="center_vertical|start"
+                                android:maxLines="1"
+                                android:text="编号验证"
+                                android:textColor="@color/colorMainTitle"
+                                android:textSize="16sp"
+                                android:typeface="sans" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:ellipsize="end"
+                                android:gravity="center_vertical|start"
+                                android:maxLines="3"
+                                android:text="输入证书编号和防伪码验证"
+                                android:textColor="@color/colorSecondary"
+                                android:textSize="14sp"
+                                android:typeface="sans" />
+
+                        </LinearLayout>
 
                     </LinearLayout>
 
                 </LinearLayout>
-
-                <!-- 功能模块 -->
-                <com.hxd.jewelry.simple.view.SelfGridView
-                    android:id="@+id/home_function_grid"
-                    android:layout_width="match_parent"
-                    android:layout_height="fill_parent"
-                    android:layout_marginTop="10dp"
-                    android:horizontalSpacing="1dp"
-                    android:numColumns="3"
-                    android:overScrollMode="never"
-                    android:paddingBottom="5dp"
-                    android:scrollbars="none"
-                    android:verticalSpacing="1dp" />
 
             </LinearLayout>
 

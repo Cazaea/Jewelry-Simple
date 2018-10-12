@@ -1,4 +1,4 @@
-package com.hxd.jewelry.simple.ui.verify;
+package com.hxd.jewelry.simple.ui.home;
 
 import android.support.v7.widget.Toolbar;
 import android.widget.Button;

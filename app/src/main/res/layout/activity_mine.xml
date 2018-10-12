@@ -29,7 +29,7 @@
             android:gravity="center"
             android:text="我的"
             android:textColor="@color/colorWhite"
-            android:textSize="16dp" />
+            android:textSize="18sp" />
 
         <LinearLayout
             android:layout_width="0dp"
@@ -43,8 +43,8 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginRight="10dp"
-                android:paddingBottom="8dp"
                 android:paddingTop="8dp"
+                android:paddingBottom="8dp"
                 android:scaleType="fitEnd"
                 android:src="@drawable/icon_mine_setting" />
         </LinearLayout>
@@ -62,8 +62,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingBottom="50dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:paddingBottom="50dp">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -105,9 +105,9 @@
                     android:layout_height="46dp"
                     android:layout_gravity="center_vertical"
                     android:layout_weight="1"
-                    android:visibility="gone"
                     android:background="@color/colorWhite"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:visibility="gone">
 
                     <ImageView
                         android:layout_width="40dp"
@@ -137,8 +137,8 @@
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1px"
-                    android:visibility="gone"
-                    android:background="@color/colorSeparatorLine" />
+                    android:background="@color/colorSeparatorLine"
+                    android:visibility="gone" />
 
                 <!-- 我的珠宝故事 -->
                 <LinearLayout

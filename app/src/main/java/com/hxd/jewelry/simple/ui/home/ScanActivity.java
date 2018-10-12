@@ -1,4 +1,4 @@
-package com.hxd.jewelry.simple.ui.verify;
+package com.hxd.jewelry.simple.ui.home;
 
 import android.graphics.Bitmap;
 import android.os.Bundle;
